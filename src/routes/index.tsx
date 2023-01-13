@@ -15,11 +15,11 @@ export const routeData = () => {
 const Home: VoidComponent = () => {
   const session = useRouteData<typeof routeData>();
   // const res = trpc.secret.useQuery();
-
   return (
     <>
       <Title>Math Game</Title>
       <div>
+        <h1>Math Game</h1>
         <Switch
           fallback={
             <button
